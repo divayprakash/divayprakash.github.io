@@ -10,11 +10,8 @@
    b. Header Styles
    c. About Section
    d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
+   e. Testimonials Section
+   f. Footer
 
 ===================================================================== */
 
@@ -326,88 +323,49 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .c {
-  	width: 90%;
+  	width: 95%;
   	-moz-animation: c 2s ease;
   	-webkit-animation: c 2s ease;
 }
 .python {
-  	width: 75%;
+  	width: 85%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
 .java {
-  	width: 60%;
+  	width: 90%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
 }
 
 @-moz-keyframes c {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 95%;  }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 85%;  }
 }
 @-moz-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
   100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
 }
 
 @-webkit-keyframes c {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 95%;  }
 }
 @-webkit-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+  100% { width: 85%;  }
 }
 @-webkit-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
   100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* e. Testimonials
 /* ------------------------------------------------------------------ */
 
 #testimonials {
@@ -556,52 +514,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
-/* ------------------------------------------------------------------ */
-
-#contact {
-   background: #191919;
-   padding-top: 96px;
-   padding-bottom: 102px;
-   color: #636363;
-}
-#contact .section-head { margin-bottom: 42px; }
-
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
-
-#contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#contact h1 span { display: none; }
-#contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #ebeeee;
-}
-
-#contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
-}
-#contact .header-col { padding-top: 6px; }
-
-/* ------------------------------------------------------------------ */
-/* i. Footer
+/* f. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
