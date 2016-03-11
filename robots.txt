@@ -1,0 +1,4 @@
+Sitemap: http://divay.esy.es/sitemap.xml
+User-agent: *
+Disallow: /scripts/
+Disallow: /process/
