@@ -22,6 +22,9 @@ ratings:
   - "**.htaccess"
   - "**.txt"
   - "**.xml"
+  - "css/"
+  - "js/"
+  - "index.html"
 exclude_paths:
   - "process/"
   - "images/"
