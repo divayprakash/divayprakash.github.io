@@ -17,11 +17,9 @@ engines:
 ratings:
   paths:
   - "**.css"
-  - "**.inc"
+  - "**.html"
   - "**.js"
-  - "**.jsx"
-  - "**.module"
-  - "**.php"
-  - "**.py"
-  - "**.rb"
+  - "**.htaccess"
+  - "**.txt"
+  - "**.xml"
 exclude_paths: []
