@@ -24,3 +24,4 @@ ratings:
   - "index.html"
 exclude_paths:
   - "assets/"
+  - "process/"
