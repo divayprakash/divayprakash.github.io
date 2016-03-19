@@ -1,0 +1,27 @@
+---
+engines:
+  csslint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+ratings:
+  paths:
+  - "**.css"
+  - "**.html"
+  - "**.js"
+  - "**.htaccess"
+  - "**.txt"
+  - "**.xml"
+  - "css/"
+  - "js/"
+  - "index.html"
+exclude_paths:
+  - "process/"
+  - "images/"
