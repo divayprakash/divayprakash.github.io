@@ -23,5 +23,4 @@ ratings:
   - "js/"
   - "index.html"
 exclude_paths:
-  - "process/"
-  - "images/"
+  - "assets/"
