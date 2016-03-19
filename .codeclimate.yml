@@ -22,4 +22,6 @@ ratings:
   - "**.htaccess"
   - "**.txt"
   - "**.xml"
-exclude_paths: []
+exclude_paths:
+  - "process/"
+  - "images/"
