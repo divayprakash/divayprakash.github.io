@@ -2,13 +2,15 @@
 engines:
   csslint:
     enabled: true
+  markdownlint:
+    enabled: true  
+  eslint:
+    enabled: true
   duplication:
     enabled: true
     config:
       languages:
       - javascript
-  eslint:
-    enabled: true
   fixme:
     enabled: true
 ratings:
