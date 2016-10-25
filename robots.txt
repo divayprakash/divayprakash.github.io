@@ -1,0 +1,4 @@
+Sitemap: https://divayprakash.github.io/
+User-agent: *
+Disallow: /assets/
+Disallow: /images/
