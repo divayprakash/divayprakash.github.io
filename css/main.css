@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.sidebar {
+    background-image: linear-gradient(to bottom, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    padding: 20px;
+    position: fixed;
+}
+
+.content {
+    background-color: green;
+    padding: 20px;
+}
