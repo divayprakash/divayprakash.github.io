@@ -1,3 +1,9 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
@@ -6,11 +12,12 @@ body {
 
 .sidebar {
     background-image: linear-gradient(to bottom, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
-    padding: 20px;
     position: fixed;
+    height: 100%;
+    width: 35%;
 }
 
 .content {
-    background-color: green;
-    padding: 20px;
+    margin-left: 35%;
+    width: calc(100%-35%);
 }
