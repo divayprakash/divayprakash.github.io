@@ -19,12 +19,38 @@ body {
 .sidebar {
     background-image: linear-gradient(to bottom, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
     color: rgba(255, 255, 255, 0.7);
+    font-weight: normal;
     height: 100%;
     padding: 8em 4em;
     position: fixed;
     text-align: right;
     width: 35%;
 }
+
+.image {
+    border-radius: 0.35em;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+    .image.avatar {
+        border-radius: 100%;
+    }
+
+    .image.avatar:before {
+        display: none;
+    }
+
+    .image.avatar {
+        margin: 0 0 1em 0;
+        width: 6.25em;
+    }
+
+    .image.avatar img {
+        border-radius: 100%;
+        width: 100%;
+    }
 
 .content {
     margin-left: 35%;
@@ -44,6 +70,31 @@ a:hover {
     text-decoration: none;
 }
 
+strong {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+
+/* XLarge */
+
+@media screen and (min-width: 1281px) {
+    /* Header */
+    .sidebar {
+        padding: 8em 4em;
+        width: 30%;
+    }
+    .sidebar h1 {
+        font-size: 1.25em;
+        font-weight: normal;
+    }
+    /* Main */
+    .content {
+        margin-left: 30%;
+        padding: 8em 4em;
+    }
+
+}
+
 
 /* Large */
 
@@ -55,6 +106,7 @@ a:hover {
     }
     .sidebar h1 {
         font-size: 1.25em;
+        font-weight: normal;
     }
     .sidebar h1 br {
         display: none;
@@ -96,6 +148,7 @@ a:hover {
     }
     .sidebar h1 {
         font-size: 1.75em;
+        font-weight: normal;
     }
     .sidebar h1 br {
         display: inline;
@@ -128,6 +181,7 @@ a:hover {
     }
     .sidebar h1 {
         font-size: 1.35em;
+        font-weight: normal;
     }
     /* Main */
     .content {
@@ -142,6 +196,9 @@ a:hover {
     /* Header */
     .sidebar {
         padding: 4.5em 1.5em;
+    }
+    .sidebar h1 {
+        font-weight: normal;
     }
     .sidebar h1 br {
         display: none;
