@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar {
-    background-image: linear-gradient(to bottom, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    background-image: linear-gradient(to bottom, #30cfd0 0%, #330867 80%);
     color: rgba(255, 255, 255, 0.7);
     font-weight: normal;
     height: 100%;
