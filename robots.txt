@@ -1,4 +1,4 @@
 Sitemap: https://divayprakash.github.io/sitemap.xml
 User-agent: *
-Disallow: /assets/
+Disallow: /css/
 Disallow: /images/
