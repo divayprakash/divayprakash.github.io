@@ -37,23 +37,23 @@ body {
     position: relative;
 }
 
-    .image.avatar {
-        border-radius: 100%;
-    }
+.image.avatar {
+    border-radius: 100%;
+}
 
-    .image.avatar:before {
-        display: none;
-    }
+.image.avatar:before {
+    display: none;
+}
 
-    .image.avatar {
-        margin: 0 0 1em 0;
-        width: 6.25em;
-    }
+.image.avatar {
+    margin: 0 0 1em 0;
+    width: 6.25em;
+}
 
-    .image.avatar img {
-        border-radius: 100%;
-        width: 100%;
-    }
+.image.avatar img {
+    border-radius: 100%;
+    width: 100%;
+}
 
 .content {
     margin-left: 35%;
@@ -90,7 +90,6 @@ strong {
         margin-left: 30%;
         padding: 8em 4em;
     }
-
 }
 
 @media screen and (max-width: 1280px) {
