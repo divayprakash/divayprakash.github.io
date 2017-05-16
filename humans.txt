@@ -6,7 +6,7 @@
 /* SITE */
 	Language: English
 	Doctype: HTML5
-	Standards: HTML5, CSS3, JavaScript
-	Components: html5shiv, jQuery, CSS3Pie, background-size polyfill, Respond.js, Skel, Font Awesome
+	Standards: HTML5, CSS
+	Components: Font Awesome
 	Software: Sublime Text, Brackets, Google Chrome, git
-	Web Tools: GitHub, Code Climate
+	Web Tools: GitHub
