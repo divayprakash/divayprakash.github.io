@@ -16,9 +16,4 @@
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://divayprakash.github.io/public_key.txt</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
 </urlset>
