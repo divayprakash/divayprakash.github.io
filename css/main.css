@@ -1,0 +1,156 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.sidebar {
+    background-image: linear-gradient(to bottom, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: normal;
+    height: 100%;
+    position: fixed;
+    text-align: right;
+    width: 35%;
+}
+
+.sidebar h1 {
+    font-weight: normal;
+}
+
+.image {
+    border-radius: 0.35em;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.image.avatar {
+    border-radius: 100%;
+}
+
+.image.avatar:before {
+    display: none;
+}
+
+.image.avatar {
+    margin: 0 0 1em 0;
+    width: 6.25em;
+}
+
+.image.avatar img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.content {
+    margin-left: 35%;
+    padding: 8em 4em;
+}
+
+a {
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    border-bottom: dotted 1px;
+    color: #49bf9d;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom-color: transparent;
+    color: #49bf9d !important;
+    text-decoration: none;
+}
+
+strong {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1281px) {
+    .sidebar {
+        width: 30%;
+        padding: 8em 4em;
+    }
+    .sidebar h1 {
+        font-size: 1.25em;
+    }
+    .content {
+        margin-left: 30%;
+        padding: 8em 4em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .sidebar {
+        width: 30%;
+        padding: 6em 3em 3em 3em;
+    }
+    .sidebar h1 {
+        font-size: 1.25em;
+    }
+    .sidebar h1 br {
+        display: none;
+    }
+    .content {
+        margin-left: 30%;
+        max-width: none;
+        padding: 6em 3em 3em 3em;
+        width: calc(100% - 30%);
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .sidebar {
+        left: auto;
+        position: relative;
+        text-align: center;
+        top: auto;
+        width: 100%;
+        display: block;
+        padding: 6em 4em;
+    }
+    .sidebar h1 {
+        font-size: 1.75em;
+    }
+    .sidebar h1 br {
+        display: inline;
+    }
+    .content {
+        margin: 0;
+        padding: 6em 4em;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .sidebar {
+        padding: 2.25em 1.5em;
+    }
+    .sidebar h1 {
+        font-size: 1.35em;
+    }
+    .content {
+        padding: 2.25em 1.5em 0.25em 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sidebar {
+        padding: 4.5em 1.5em;
+    }
+    .sidebar h1 br {
+        display: none;
+    }
+}
