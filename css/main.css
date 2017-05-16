@@ -18,12 +18,25 @@ body {
 
 .sidebar {
     background-image: linear-gradient(to bottom, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
-    color: rgba(255, 255, 255, 0.7);
     font-weight: normal;
     height: 100%;
     position: fixed;
     text-align: right;
     width: 35%;
+}
+
+#particles-js, .sidebar-content {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-content {
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .image {
@@ -79,10 +92,12 @@ strong {
 @media screen and (min-width: 1281px) {
     /* Header */
     .sidebar {
-        padding: 8em 4em;
         width: 30%;
     }
-    .sidebar h1 {
+    .sidebar-content {
+        padding: 8em 4em;
+    }
+    .sidebar-content h1 {
         font-size: 1.25em;
         font-weight: normal;
     }
@@ -100,14 +115,16 @@ strong {
 @media screen and (max-width: 1280px) {
     /* Header */
     .sidebar {
-        padding: 6em 3em 3em 3em;
         width: 30%;
     }
-    .sidebar h1 {
+    .sidebar-content {
+        padding: 6em 3em 3em 3em;
+    }
+    .sidebar-content h1 {
         font-size: 1.25em;
         font-weight: normal;
     }
-    .sidebar h1 br {
+    .sidebar-content h1 br {
         display: none;
     }
     /* Main */
@@ -134,22 +151,21 @@ strong {
     }
     /* Header */
     .sidebar {
-        background-attachment: scroll;
-        background-position: top left, center center;
-        background-size: auto, cover;
         left: auto;
-        padding: 6em 4em;
         position: relative;
         text-align: center;
         top: auto;
         width: 100%;
         display: block;
     }
-    .sidebar h1 {
+    .sidebar-content {
+        padding: 6em 4em;
+    }
+    .sidebar-content h1 {
         font-size: 1.75em;
         font-weight: normal;
     }
-    .sidebar h1 br {
+    .sidebar-content h1 br {
         display: inline;
     }
     /* Main */
@@ -175,10 +191,10 @@ strong {
         font-size: 1em;
     }
     /* Header */
-    .sidebar {
+    .sidebar-content {
         padding: 2.25em 1.5em;
     }
-    .sidebar h1 {
+    .sidebar-content h1 {
         font-size: 1.35em;
         font-weight: normal;
     }
@@ -193,13 +209,13 @@ strong {
 
 @media screen and (max-width: 480px) {
     /* Header */
-    .sidebar {
+    .sidebar-content {
         padding: 4.5em 1.5em;
     }
-    .sidebar h1 {
+    .sidebar-content h1 {
         font-weight: normal;
     }
-    .sidebar h1 br {
+    .sidebar-content h1 br {
         display: none;
     }
 }
