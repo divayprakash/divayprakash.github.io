@@ -26,6 +26,10 @@ body {
     width: 35%;
 }
 
+.sidebar h1 {
+    font-weight: normal;
+}
+
 .image {
     border-radius: 0.35em;
     border: 0;
@@ -74,19 +78,14 @@ strong {
     font-weight: bold;
 }
 
-/* XLarge */
-
 @media screen and (min-width: 1281px) {
-    /* Header */
     .sidebar {
         width: 30%;
         padding: 8em 4em;
     }
     .sidebar h1 {
         font-size: 1.25em;
-        font-weight: normal;
     }
-    /* Main */
     .content {
         margin-left: 30%;
         padding: 8em 4em;
@@ -94,23 +93,17 @@ strong {
 
 }
 
-
-/* Large */
-
 @media screen and (max-width: 1280px) {
-    /* Header */
     .sidebar {
         width: 30%;
         padding: 6em 3em 3em 3em;
     }
     .sidebar h1 {
         font-size: 1.25em;
-        font-weight: normal;
     }
     .sidebar h1 br {
         display: none;
     }
-    /* Main */
     .content {
         margin-left: 30%;
         max-width: none;
@@ -119,20 +112,7 @@ strong {
     }
 }
 
-
-/* Medium */
-
 @media screen and (max-width: 980px) {
-    /* Basic */
-    h1 br,
-    h2 br,
-    h3 br,
-    h4 br,
-    h5 br,
-    h6 br {
-        display: none;
-    }
-    /* Header */
     .sidebar {
         left: auto;
         position: relative;
@@ -144,12 +124,10 @@ strong {
     }
     .sidebar h1 {
         font-size: 1.75em;
-        font-weight: normal;
     }
     .sidebar h1 br {
         display: inline;
     }
-    /* Main */
     .content {
         margin: 0;
         padding: 6em 4em;
@@ -157,44 +135,21 @@ strong {
     }
 }
 
-
-/* Small */
-
 @media screen and (max-width: 736px) {
-    /* Basic */
-    h1 {
-        font-size: 1.5em;
-    }
-    h2 {
-        font-size: 1.2em;
-    }
-    h3 {
-        font-size: 1em;
-    }
-    /* Header */
     .sidebar {
         padding: 2.25em 1.5em;
     }
     .sidebar h1 {
         font-size: 1.35em;
-        font-weight: normal;
     }
-    /* Main */
     .content {
         padding: 2.25em 1.5em 0.25em 1.5em;
     }
 }
 
-
-/* XSmall */
-
 @media screen and (max-width: 480px) {
-    /* Header */
     .sidebar {
         padding: 4.5em 1.5em;
-    }
-    .sidebar h1 {
-        font-weight: normal;
     }
     .sidebar h1 br {
         display: none;
