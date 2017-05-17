@@ -5,6 +5,7 @@
 My personal website hosted using GitHub pages.
 
 ## Attributions
+* CSS vendor prefixes using [Autoprefixer](https://autoprefixer.github.io/)
 * Stock image for background under [CCO License](https://creativecommons.org/publicdomain/zero/1.0/) from [Unsplash](https://unsplash.com/@dcp?photo=i1x2BO7CSBI)
 * Gradient from [WebGradients](https://webgradients.com/)
 * Font from Google fonts under [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html)
