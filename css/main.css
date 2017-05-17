@@ -103,8 +103,6 @@ strong {
     height: auto;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    -webkit-filter: drop-shadow(0 0 0.2em rgba(0, 0, 0, 0.8));
-    filter: drop-shadow(0 0 0.2em rgba(0, 0, 0, 0.8));
 }
 
 .experience img:hover {
