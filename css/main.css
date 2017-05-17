@@ -45,10 +45,6 @@ body {
     position: relative;
 }
 
-.image.avatar {
-    border-radius: 100%;
-}
-
 .image.avatar:before {
     display: none;
 }
@@ -56,6 +52,12 @@ body {
 .image.avatar {
     margin: 0 0 1em 0;
     width: 6.25em;
+    border-radius: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.image.avatar:hover {
+    transform: scale(1.1);
 }
 
 .image.avatar img {
