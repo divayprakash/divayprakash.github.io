@@ -204,6 +204,13 @@ strong {
     .content {
         padding: 2.25em 1.5em 0.25em 1.5em;
     }
+    .experience img {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .experience .description {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 480px) {
