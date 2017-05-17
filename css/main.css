@@ -102,6 +102,13 @@ strong {
     width: 25%;
     height: auto;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.6);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.experience img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .experience br {
@@ -125,9 +132,9 @@ strong {
     font-style: italic;
 }
 
-.experience .description .duration {
+.experience .description .time-place {
     text-transform: uppercase;
-    font-size: 0.75em;
+    font-size: 0.8em;
 }
 
 @media screen and (min-width: 1281px) {
