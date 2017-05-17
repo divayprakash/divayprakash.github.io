@@ -13,6 +13,6 @@ My personal website hosted using GitHub pages.
 * Sitemap generated using [Free Online Sitemap Generator](https://www.xml-sitemaps.com)
 * [Fotor Graphic Design App](https://www.fotor.com/app.html#!module/design/tool/Design)
 * [TinyPNG](https://tinypng.com/) for image compression
-* Quick Picture Tools' [Rounder Corners Tool](http://www.quickpicturetools.com/en/rounded_corners/)
+* Quick Picture Tools' [Rounded Corners Tool](http://www.quickpicturetools.com/en/rounded_corners/)
 * [Pixlr Express](https://pixlr.com/express/) photo editor
 * [Online Image Editor](http://www.online-image-editor.com/)
