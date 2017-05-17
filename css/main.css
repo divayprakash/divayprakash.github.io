@@ -97,7 +97,7 @@ strong {
     height: 1em;
 }
 
-.experience img {
+.experience img , .projects img {
     float: left;
     width: 25%;
     height: auto;
@@ -105,18 +105,18 @@ strong {
     transition: all 0.2s ease-in-out;
 }
 
-.experience img:hover {
+.experience img:hover, .projects img:hover {
     z-index: 2;
     position: relative;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.experience br {
+.experience br, .projects br {
     clear: both;
 }
 
-.experience .description {
+.experience .description, .projects .description {
     margin-left: 30%;
 }
 
@@ -133,9 +133,17 @@ strong {
     font-style: italic;
 }
 
-.experience .description .time-place {
+.experience .description .time-place, .projects .description .duration, .projects .description .guide {
     text-transform: uppercase;
     font-size: 0.8em;
+}
+
+.projects .description .guide:before {
+    content: "Guide : ";
+}
+
+.projects .description .title {
+    font-weight: bold;
 }
 
 @media screen and (min-width: 1281px) {
@@ -204,11 +212,11 @@ strong {
     .content {
         padding: 2.25em 1.5em 0.25em 1.5em;
     }
-    .experience img {
+    .experience img, .projects img {
         width: 100%;
         margin-bottom: 1em;
     }
-    .experience .description {
+    .experience .description, .projects .description {
         margin-left: 0;
     }
 }
