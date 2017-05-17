@@ -25,7 +25,7 @@ body {
 }
 
 .sidebar {
-    background-image: linear-gradient(to bottom, rgba(48, 207, 208, 0.9) 0%, rgba(51, 8, 103, 0.9) 80%);
+    background: url("../images/overlay.png"), linear-gradient(to bottom, rgba(48, 207, 208, 1) 0%, rgba(51, 8, 103, 1) 100%);
     color: rgba(255, 255, 255, 0.7);
     font-weight: normal;
     height: 100%;
