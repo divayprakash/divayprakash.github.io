@@ -101,12 +101,15 @@ strong {
     float: left;
     width: 25%;
     height: auto;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.6);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    -webkit-filter: drop-shadow(0 0 0.2em rgba(0, 0, 0, 0.8));
+    filter: drop-shadow(0 0 0.2em rgba(0, 0, 0, 0.8));
 }
 
 .experience img:hover {
+    z-index: 2;
+    position: relative;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
