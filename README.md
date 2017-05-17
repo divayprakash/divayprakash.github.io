@@ -11,3 +11,7 @@ My personal website hosted using GitHub pages.
 * Font from Google fonts under [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html)
 * Icons from [FontAwesome](htts://fontawesome.io) by Dave Gandy under [MIT License](http://opensource.org/licenses/mit-license.html)
 * Sitemap generated using [Free Online Sitemap Generator](https://www.xml-sitemaps.com)
+* [Fotor Graphic Design App](https://www.fotor.com/app.html#!module/design/tool/Design)
+* [TinyPNG](https://tinypng.com/) for image compression
+* Quick Picture Tools' [Rounder Corners Tool](http://www.quickpicturetools.com/en/rounded_corners/)
+* [Pixlr Express](https://pixlr.com/express/) photo editor
