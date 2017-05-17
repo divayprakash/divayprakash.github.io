@@ -88,6 +88,43 @@ strong {
     font-weight: bold;
 }
 
+.experience {
+    width: 100%;
+}
+
+.experience-tile {
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.experience-tile.left {
+    padding-right: 1em;
+}
+
+.experience-tile.right {
+    float: right;
+    padding-left: 1em;
+}
+
+.experience-tile img {
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease;
+    filter: grayscale(1) blur(2px);
+}
+
+.experience-tile img:hover {
+    z-index: 2;
+    position: relative;
+    transform: scale(1.05);
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.6);
+    filter: grayscale(0) blur(0);
+}
+
 @media screen and (min-width: 1281px) {
     .sidebar {
         width: 30%;
@@ -152,7 +189,17 @@ strong {
         font-size: 1.35em;
     }
     .content {
-        padding: 2.25em 1.5em 0.25em 1.5em;
+        padding: 2.25em 1.5em 2.25em 1.5em;
+    }
+    .experience-tile {
+        width: 100%;
+    }
+    .experience-tile.left {
+        padding-right: 0;
+    }
+    .experience-tile.right {
+        padding-left: 0;
+        float: none;
     }
 }
 
