@@ -97,7 +97,7 @@ strong {
     height: 1em;
 }
 
-.experience img , .projects img {
+.experience img , .projects img, .education img {
     float: left;
     width: 25%;
     height: auto;
@@ -105,18 +105,18 @@ strong {
     transition: all 0.2s ease-in-out;
 }
 
-.experience img:hover, .projects img:hover {
+.experience img:hover, .projects img:hover, .education img:hover {
     z-index: 2;
     position: relative;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.experience br, .projects br {
+.experience br, .projects br, .education br {
     clear: both;
 }
 
-.experience .description, .projects .description {
+.experience .description, .projects .description, .education .description {
     margin-left: 30%;
 }
 
@@ -125,15 +125,24 @@ strong {
     display: inline;
 }
 
-.experience .description .company {
+.education .description .institute,.qualification {
+    text-transform: capitalize;
+    display: inline;
+}
+
+.experience .description .company, .education .description .institute {
     font-weight: bold;
 }
 
-.experience .description .position {
+.experience .description .company:after, .education .description .institute:after {
+    content: " /";
+}
+
+.experience .description .position, .education .description .qualification {
     font-style: italic;
 }
 
-.experience .description .time-place, .projects .description .duration, .projects .description .guide {
+.experience .description .time-place, .projects .description .duration, .projects .description .guide, .education .description .time-place {
     text-transform: uppercase;
     font-size: 0.8em;
 }
@@ -212,11 +221,11 @@ strong {
     .content {
         padding: 2.25em 1.5em 0.25em 1.5em;
     }
-    .experience img, .projects img {
+    .experience img, .projects img, .education img {
         width: 100%;
         margin-bottom: 1em;
     }
-    .experience .description, .projects .description {
+    .experience .description, .projects .description, .education .description {
         margin-left: 0;
     }
 }
