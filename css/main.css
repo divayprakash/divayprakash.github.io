@@ -165,11 +165,25 @@ strong {
 .opensource img {
     width: 100%;
     height: auto;
+    padding: 10%;
 }
 
-.opensource p {
+.opensource .center {
     text-align: center;
-    margin-bottom: 2em;
+}
+
+.opensource .center a {
+    border-bottom: 1px rgba(51, 8, 103, 1) dotted;
+    transition: color 0.2s ease-in-out;
+}
+
+.opensource .center a:hover {
+    border-bottom: 1px rgba(48, 207, 208, 1) solid;
+}
+
+.opensource .center p {
+    margin-top: 0;
+    font-size: 0.9em;
 }
 
 @media screen and (min-width: 1281px) {
