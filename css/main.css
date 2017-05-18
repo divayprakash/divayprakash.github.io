@@ -155,6 +155,10 @@ strong {
     font-weight: bold;
 }
 
+.projects .description .details p a:first-child {
+    margin-right: 1em;
+}
+
 .opensource {
     width: 100%;
     display: grid;
