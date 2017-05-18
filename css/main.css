@@ -158,8 +158,8 @@ strong {
 .opensource {
     width: 100%;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-gap: 5%;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    grid-gap: 2%;
 }
 
 .opensource img {
@@ -226,6 +226,10 @@ strong {
         padding: 6em 4em;
         width: 100%;
     }
+    .opensource {
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 5%;
+    }
 }
 
 @media screen and (max-width: 736px) {
@@ -245,6 +249,10 @@ strong {
     .experience .description, .projects .description, .education .description {
         margin-left: 0;
     }
+    .opensource {
+        grid-template-columns: 45% 45%;
+        grid-gap: 5%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -253,5 +261,9 @@ strong {
     }
     .sidebar h1 br {
         display: none;
+    }
+    .opensource {
+        grid-template-columns: 100%;
+        grid-gap: 0%;
     }
 }
