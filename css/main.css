@@ -129,6 +129,10 @@ strong {
     font-weight: bold;
 }
 
+.experience .description .company:after {
+    content: " /";
+}
+
 .experience .description .position {
     font-style: italic;
 }
