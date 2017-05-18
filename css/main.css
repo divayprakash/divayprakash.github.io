@@ -155,6 +155,37 @@ strong {
     font-weight: bold;
 }
 
+.opensource {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    grid-gap: 2%;
+}
+
+.opensource img {
+    width: 100%;
+    height: auto;
+    padding: 10%;
+}
+
+.opensource .center {
+    text-align: center;
+}
+
+.opensource .center a {
+    border-bottom: 1px rgba(51, 8, 103, 1) dotted;
+    transition: color 0.2s ease-in-out;
+}
+
+.opensource .center a:hover {
+    border-bottom: 1px rgba(48, 207, 208, 1) solid;
+}
+
+.opensource .center p {
+    margin-top: 0;
+    font-size: 0.9em;
+}
+
 @media screen and (min-width: 1281px) {
     .sidebar {
         width: 30%;
@@ -209,6 +240,10 @@ strong {
         padding: 6em 4em;
         width: 100%;
     }
+    .opensource {
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 5%;
+    }
 }
 
 @media screen and (max-width: 736px) {
@@ -228,6 +263,10 @@ strong {
     .experience .description, .projects .description, .education .description {
         margin-left: 0;
     }
+    .opensource {
+        grid-template-columns: 45% 45%;
+        grid-gap: 5%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -236,5 +275,9 @@ strong {
     }
     .sidebar h1 br {
         display: none;
+    }
+    .opensource {
+        grid-template-columns: 100%;
+        grid-gap: 0%;
     }
 }
