@@ -142,8 +142,12 @@ strong {
     font-style: italic;
 }
 
-.experience .description .time-place, .projects .description .duration, .projects .description .guide, .education .description .time-place, .icourse .description .institution, .icourse .description .platform {
+.experience .description .time-place, .projects .description .duration, .projects .description .guide, .education .description .time-place, .icourse .description .institution {
     text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.icourse .description .platform {
     font-size: 0.8em;
 }
 
