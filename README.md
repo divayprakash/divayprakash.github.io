@@ -17,3 +17,4 @@ My personal website hosted using GitHub pages.
 * [Pixlr Express](https://pixlr.com/express/) photo editor
 * [Online Image Editor](http://www.online-image-editor.com/)
 * [LunaPic Image Editor](http://www194.lunapic.com/editor/)
+* Animations using [Animate.css](https://daneden.github.io/animate.css/) and [WOW.js](http://mynameismatthieu.com/WOW/)
