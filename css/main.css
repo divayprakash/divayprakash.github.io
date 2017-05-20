@@ -186,6 +186,7 @@ strong {
 
 .opensource .center a {
     border-bottom: 1px rgba(51, 8, 103, 1) dotted;
+    -webkit-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
 }
 
