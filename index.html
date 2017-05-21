@@ -31,7 +31,7 @@
 <body>
     <div class="sidebar">
         <a class="image avatar wow zoomIn"><img src="images/avatar.jpg" alt="" /></a>
-        <h1 class="wow fadeInUp">
+        <h1 class="wow fadeInUp static">
             <strong>Me</strong><br />
             student<br />
             programmer<br />
@@ -42,9 +42,21 @@
             artist<br />
             geek
         </h1>
+        <nav class="wow fadeInUp dynamic" id="nav">
+            <ul>
+                <li class="active"><a href="#abt">About</a></li>
+                <li><a href="#exp">Experience</a></li>
+                <li><a href="#prj">Projects at IIITD</a></li>
+                <li><a href="#osc">Open Source Contributions</a></li>
+                <li><a href="#osp">Open Source Projects</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#ico">Independent Coursework</a></li>
+                <li><a href="#git">Get In Touch</a></li>
+            </ul>
+        </nav>
     </div>
     <div class="content">
-        <h1 class="wow fadeInUp">Hi! I'm Divay Prakash.</h1>
+        <h1 class="wow fadeInUp" id="abt">Hi! I'm Divay Prakash.</h1>
         <p class="wow fadeInUp">
             I'm an undergrad student at IIIT-Delhi, pursuing BTech in Computer Science and Engineeering. In a nutshell, I am a simple soul, who likes being with friends, spending time with family, and treating life like it’s a new day, everyday. I have very eclectic tastes, with the music I listen to ranging from metal to jazz, and books from sci-fi to classical literature. I play the guitar and am learning to play the drums. I’m not an avid gamer, but I enjoy strategy and racing games, though I am always up for Counter-Strike! I’m a voracious reader, soaking in anything I can lay my hands on. I enjoy programming and web design, so more often than not I’ll be holed up with my laptop and some coffee (well, lots of it actually!). I am fascinated by the world around me, and being a keen programmer, I love to hack and create amazing things that make a difference.
         </p>
@@ -54,7 +66,7 @@
         <br />
         <hr class="wow fadeInUp"/>
         <br />
-        <h2 class="wow fadeInUp">Experience</h2>
+        <h2 class="wow fadeInUp" id="exp">Experience</h2>
         <div class="experience wow fadeInUp">
             <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/coursera.png" alt="">
             <div class="description">
@@ -120,7 +132,7 @@
         <br />
         <hr class="wow fadeInUp"/>
         <br />
-        <h2 class="wow fadeInUp">Projects at IIITD</h2>
+        <h2 class="wow fadeInUp" id="prj">Projects at IIITD</h2>
         <div class="projects wow fadeInUp">
             <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/iiitd.png" alt="">
             <div class="description">
@@ -315,7 +327,7 @@
         <br />
         <hr class="wow fadeInUp"/>
         <br />
-        <h2 class="wow fadeInUp">Open Source Contributions</h2>
+        <h2 class="wow fadeInUp" id="osc">Open Source Contributions</h2>
         <div class="opensource">
             <div class="center wow fadeInUp">
                 <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/zen.png" alt="">
@@ -381,7 +393,7 @@
         <br />
         <hr class="wow fadeInUp"/>
         <br />
-        <h2 class="wow fadeInUp">Open Source Projects</h2>
+        <h2 class="wow fadeInUp" id="osp">Open Source Projects</h2>
         <div class="opensource">
             <div class="center wow fadeInUp">
                 <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/async.png" alt="">
@@ -427,7 +439,7 @@
         <br />
         <hr class="wow fadeInUp"/>
         <br />
-        <h2 class="wow fadeInUp">Education</h2>
+        <h2 class="wow fadeInUp" id="edu">Education</h2>
         <div class="education wow fadeInUp">
             <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/iiitd.png" alt="">
             <div class="description">
@@ -477,7 +489,7 @@
         <br />
         <hr class="wow fadeInUp"/>
         <br />
-        <h2 class="wow fadeInUp">Independent Coursework</h2>
+        <h2 class="wow fadeInUp" id="ico">Independent Coursework</h2>
         <div class="icourse wow fadeInUp">
             <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/haskell.png" alt="">
             <div class="description">
@@ -563,7 +575,7 @@
         <br />
         <hr class="wow fadeInUp"/>
         <br />
-        <h2 class="wow fadeInUp">Get in Touch!</h2>
+        <h2 class="wow fadeInUp" id="git">Get in Touch!</h2>
         <p class="wow fadeInUp">I'd love to hear from you! Drop me a line.</p>
         <div class="wow fadeInUp">
             <a><i class="fa fa-home fa-lg fa-fw"></i> New Delhi, India<br /></a>
@@ -582,6 +594,42 @@
             }
         )
         wow.init();
+    </script>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/scrollspy.min.js"></script>
+    <script>
+        $(window).on('load resize', function(){
+            var width = $(window).width();
+            if (width > 980) {
+                $("#nav").scrollspy(
+                    {
+                        animate: true
+                    }
+                );
+            }
+        });
+    </script>
+    <script>
+        $('.dynamic').hide();
+        $(window).on('load resize', function(){
+            var width = $(window).width();
+            if (width > 980) {
+                var offset = $('.content').css('padding-top');
+                var hidePos = parseInt(offset, 10);
+                $(window).scroll(function() {
+                    if ($(this).scrollTop()>hidePos)
+                    {
+                        $('.static').hide();
+                        $('.dynamic').show();
+                    }
+                    else
+                    {
+                        $('.static').show();
+                        $('.dynamic').hide();
+                    }
+                });
+            }
+        });
     </script>
 </body>
 
