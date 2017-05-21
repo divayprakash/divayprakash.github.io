@@ -44,6 +44,29 @@ body {
     font-weight: normal;
 }
 
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li a {
+    font-size: 1.25em;
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    border-bottom-color: transparent;
+    color: rgba(48, 207, 208, 1) !important;
+    text-decoration: none;
+}
+
+.sidebar ul li.active a {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+
 .image {
     border-radius: 0.35em;
     border: 0;
