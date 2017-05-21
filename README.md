@@ -18,3 +18,4 @@ My personal website hosted using GitHub pages.
 * [Online Image Editor](http://www.online-image-editor.com/)
 * [LunaPic Image Editor](http://www194.lunapic.com/editor/)
 * Animations using [Animate.css](https://daneden.github.io/animate.css/) and [WOW.js](http://mynameismatthieu.com/WOW/)
+* Scrollspy plugin from r3plica [here](https://github.com/r3plica/Scrollspy/)
