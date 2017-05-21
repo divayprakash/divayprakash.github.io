@@ -82,13 +82,6 @@ body {
     margin: 0 0 1em 0;
     width: 6.25em;
     border-radius: 100%;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-
-.image.avatar:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
 
 .image.avatar img {
@@ -128,15 +121,6 @@ strong {
     float: left;
     width: 25%;
     height: auto;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-
-.experience img:hover, .projects img:hover, .education img:hover, .icourse img:hover {
-    z-index: 2;
-    position: relative;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
 
 .experience br, .projects br, .education br, .icourse br {
