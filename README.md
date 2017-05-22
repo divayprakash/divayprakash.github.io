@@ -19,3 +19,5 @@ My personal website hosted using GitHub pages.
 * [LunaPic Image Editor](http://www194.lunapic.com/editor/)
 * Animations using [Animate.css](https://daneden.github.io/animate.css/) under [MIT license](https://github.com/daneden/animate.css/blob/master/LICENSE/) and [WOW.js](http://mynameismatthieu.com/WOW/) under GNU GPLv3 license
 * Scrollspy plugin from r3plica [here](https://github.com/r3plica/Scrollspy/) under [GNU GPLv2 license](https://github.com/r3plica/Scrollspy/blob/master/LICENSE)
+* [CSSMinifier](https://cssminifier.com/)
+* Page loading indicator using [PACE](https://github.com/HubSpot/PACE/) under [MIT license](https://github.com/HubSpot/pace/blob/master/LICENSE)
