@@ -206,6 +206,13 @@ strong {
     font-size: 0.9em;
 }
 
+.skills .progress {
+    margin: 0 15% 1em 15%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 20%;
+}
+
 @media screen and (min-width: 1281px) {
     .sidebar {
         width: 30%;
@@ -299,5 +306,13 @@ strong {
     .opensource {
         grid-template-columns: 100%;
         grid-gap: 0%;
+    }
+    .skills .progress {
+        margin: 0 15% 1em 15%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .skills .progress > * {
+        margin: 1em 0 1em 0;
     }
 }
