@@ -216,17 +216,6 @@ strong {
 .skills .listing {
     margin-top: 2em;
     width: 100%;
-    display: inline;
-}
-
-.skills .listing .title {
-    float: left;
-    width: 25%;
-}
-
-.skills .listing .core {
-    margin-left: 30%;
-    width: 70%;
 }
 
 @media screen and (min-width: 1281px) {
