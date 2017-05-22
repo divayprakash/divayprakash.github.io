@@ -632,19 +632,90 @@
     <div class="wow fadeInUp" id="map"></div>
     <script>
       function initMap() {
+        var styledMapType = new google.maps.StyledMapType(
+            [
+              {
+                "elementType": "geometry",
+                "stylers": [
+                  {
+                    "color": "#1d2c4d"
+                  }
+                ]
+              },
+              {
+                "elementType": "labels",
+                "stylers": [
+                  {
+                    "visibility": "off"
+                  }
+                ]
+              },
+              {
+                "featureType": "administrative.country",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                  {
+                    "color": "#4b6878"
+                  }
+                ]
+              },
+              {
+                "featureType": "administrative.neighborhood",
+                "stylers": [
+                  {
+                    "visibility": "off"
+                  }
+                ]
+              },
+              {
+                "featureType": "administrative.province",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                  {
+                    "color": "#4b6878"
+                  }
+                ]
+              },
+              {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [
+                  {
+                    "color": "#0e1626"
+                  }
+                ]
+              },
+              {
+                "featureType": "water",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  {
+                    "color": "#4e6d70"
+                  }
+                ]
+              }
+            ]
+        );
         var delhi = {lat: 28.6139, lng: 77.2090};
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 4,
-            center: delhi
+            center: delhi,
+            disableDefaultUI: true,
+            draggable: false,
+            gestureHandling: "none",
+            keyboardShortcuts: false,
+            scrollwheel: false
         });
         var marker = new google.maps.Marker({
             position: delhi,
             map: map
         });
+        map.setTilt(0);
+        map.mapTypes.set('styled_map', styledMapType);
+        map.setMapTypeId('styled_map');
       }
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs1mxDY2nPRWlmqmyiY6iChOjdE64V7Zw&callback=initMap">
-    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs1mxDY2nPRWlmqmyiY6iChOjdE64V7Zw&callback=initMap"></script>
     <script src="https://use.fontawesome.com/3409e1cee6.js"></script>
     <script src="./js/wow.min.js"></script>
     <script src="./js/jquery-3.2.1.min.js"></script>
