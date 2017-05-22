@@ -111,11 +111,7 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 4,
         center: delhi,
-        disableDefaultUI: true,
-        draggable: false,
-        gestureHandling: "none",
-        keyboardShortcuts: false,
-        scrollwheel: false
+        disableDefaultUI: true
     });
     var marker = new google.maps.Marker({
         position: delhi,
