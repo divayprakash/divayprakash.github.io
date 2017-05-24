@@ -25,3 +25,5 @@ My personal website hosted using GitHub pages.
 * [JSMinifier](https://javascript-minifier.com/)
 * [New-line Converter](http://newline.nadav.org/)
 * [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/)
+* Google guidelines on structured data for social media profiles [here](https://developers.google.com/search/docs/data-types/social-profile-links)
+* Schemas for strcutured data from [Schema.org](http://schema.org/)
