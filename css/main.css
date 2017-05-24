@@ -303,11 +303,11 @@ strong {
     .content {
         padding: 2.25em 1.5em 0.25em 1.5em;
     }
-    .experience img, .projects img, .education img {
+    .experience img, .projects img, .education img, .icourse img {
         width: 100%;
         margin-bottom: 1em;
     }
-    .experience .description, .projects .description, .education .description {
+    .experience .description, .projects .description, .education .description, .icourse .description {
         margin-left: 0;
     }
     .opensource {
