@@ -118,6 +118,28 @@ strong {
     height: 1em;
 }
 
+button {
+    appearance: none;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    background-color: transparent;
+    border-radius: 0.35em;
+    border: solid 3px #cfcfcf;
+    color: rgba(51, 8, 103, 1) !important;
+    cursor: pointer;
+    font-weight: bold;
+    height: 3.15em;
+    height: calc(2.75em + 6px);
+    line-height: 2.75em;
+    min-width: 10em;
+    padding: 0 1.5em;
+    margin-top: 1em;
+}
+
+button:hover {
+    border-color: rgba(48, 207, 208, 1);
+    color: rgba(48, 207, 208, 1) !important;
+}
+
 .experience img , .projects img, .education img, .icourse img {
     float: left;
     width: 25%;
