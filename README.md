@@ -2,7 +2,17 @@
 
 # [divayprakash.github.io](https://divayprakash.github.io/)
 
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/contains-technical-debt.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/no-ragrets.svg)](http://forthebadge.com) 
+
 My personal website hosted using GitHub pages.
+
+[![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](https://divayprakash.github.io/)
+
+[![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com)
 
 ## Attributions
 * CSS vendor prefixes using [Autoprefixer](https://autoprefixer.github.io/)
@@ -27,3 +37,5 @@ My personal website hosted using GitHub pages.
 * [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/)
 * Google guidelines on structured data for social media profiles [here](https://developers.google.com/search/docs/data-types/social-profile-links)
 * Schemas for strcutured data from [Schema.org](http://schema.org/)
+
+[![forthebadge](http://forthebadge.com/images/badges/winter-is-coming.svg)](http://forthebadge.com)
