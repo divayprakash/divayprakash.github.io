@@ -267,6 +267,10 @@ button:hover {
     width: 70%;
 }
 
+#stack, #love, #license {
+    vertical-align: middle;
+}
+
 @media screen and (min-width: 1281px) {
     .sidebar {
         width: 30%;
