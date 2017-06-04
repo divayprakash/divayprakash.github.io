@@ -30,11 +30,8 @@ My personal website hosted using GitHub pages.
 * Animations using [Animate.css](https://daneden.github.io/animate.css/) under [MIT license](https://github.com/daneden/animate.css/blob/master/LICENSE/) and [WOW.js](http://mynameismatthieu.com/WOW/) under GNU GPLv3 license
 * Scrollspy plugin from r3plica [here](https://github.com/r3plica/Scrollspy/) under [GNU GPLv2 license](https://github.com/r3plica/Scrollspy/blob/master/LICENSE)
 * [CSSMinifier](https://cssminifier.com/)
-* Page loading indicator using [PACE](https://github.com/HubSpot/PACE/) under [MIT license](https://github.com/HubSpot/pace/blob/master/LICENSE)
-* [Progress Bar.JS](https://kimmobrunfeldt.github.io/progressbar.js/) under [MIT license](https://github.com/kimmobrunfeldt/progressbar.js/blob/master/LICENSE)
 * [JSMinifier](https://javascript-minifier.com/)
 * [New-line Converter](http://newline.nadav.org/)
-* [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/)
 * Google guidelines on structured data for social media profiles [here](https://developers.google.com/search/docs/data-types/social-profile-links)
 * Schemas for strcutured data from [Schema.org](http://schema.org/)
 
