@@ -142,7 +142,7 @@ button:hover {
 
 .experience img , .projects img, .education img, .icourse img {
     float: left;
-    width: 25%;
+    width: 20%;
     height: auto;
 }
 
@@ -151,7 +151,7 @@ button:hover {
 }
 
 .experience .description, .projects .description, .education .description, .icourse .description {
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 .experience .description .company,.position {
@@ -326,7 +326,9 @@ button:hover {
         padding: 2.25em 1.5em 0.25em 1.5em;
     }
     .experience img, .projects img, .education img, .icourse img {
-        width: 100%;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
         margin-bottom: 1em;
     }
     .experience .description, .projects .description, .education .description, .icourse .description {
