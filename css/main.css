@@ -258,15 +258,6 @@ button:hover {
     width: 95%;
 }
 
-#map {
-    margin: 0;
-    width: 100%;
-    height: 20em;
-    background: #eeeeee;
-    margin-left: 30%;
-    width: 70%;
-}
-
 #stack, #love, #license {
     vertical-align: middle;
 }
@@ -328,11 +319,6 @@ button:hover {
     .opensource {
         grid-template-columns: 30% 30% 30%;
         grid-gap: 5%;
-    }
-    #map {
-        margin: 0;
-        height: 15em;
-        width: 100%;
     }
 }
 

@@ -33,7 +33,6 @@ My personal website hosted using GitHub pages.
 * [Progress Bar.JS](https://kimmobrunfeldt.github.io/progressbar.js/) under [MIT license](https://github.com/kimmobrunfeldt/progressbar.js/blob/master/LICENSE)
 * [JSMinifier](https://javascript-minifier.com/)
 * [New-line Converter](http://newline.nadav.org/)
-* [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/)
 * Google guidelines on structured data for social media profiles [here](https://developers.google.com/search/docs/data-types/social-profile-links)
 * Schemas for strcutured data from [Schema.org](http://schema.org/)
 
