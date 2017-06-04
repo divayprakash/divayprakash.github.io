@@ -200,14 +200,14 @@ button:hover {
 .opensource {
     width: 100%;
     display: grid;
-    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
-    grid-gap: 2%;
+    grid-template-columns: 14% 14% 14% 14% 14% 14%;
+    grid-gap: calc(16%/5);
 }
 
 .opensource img {
     width: 100%;
     height: auto;
-    padding: 10%;
+    padding: 20%;
 }
 
 .opensource .center {
@@ -309,10 +309,6 @@ button:hover {
         padding: 6em 4em;
         width: 100%;
     }
-    .opensource {
-        grid-template-columns: 30% 30% 30%;
-        grid-gap: 5%;
-    }
 }
 
 @media screen and (max-width: 736px) {
@@ -335,8 +331,8 @@ button:hover {
         margin-left: 0;
     }
     .opensource {
-        grid-template-columns: 45% 45%;
-        grid-gap: 5%;
+        grid-template-columns: 18% 18% 18% 18% 18%;
+        grid-gap: calc(10%/4);
     }
 }
 
@@ -348,7 +344,7 @@ button:hover {
         display: none;
     }
     .opensource {
-        grid-template-columns: 100%;
-        grid-gap: 0%;
+        grid-template-columns: 31% 31% 31%;
+        grid-gap: calc(7%/2);
     }
 }
