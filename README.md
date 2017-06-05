@@ -34,5 +34,8 @@ My personal website hosted using GitHub pages.
 * [New-line Converter](http://newline.nadav.org/)
 * Google guidelines on structured data for social media profiles [here](https://developers.google.com/search/docs/data-types/social-profile-links)
 * Schemas for strcutured data from [Schema.org](http://schema.org/)
+* [cloudconvert](https://cloudconvert.com/) for SVG to PNG conversion
+* [For The Badge](https://forthebadge.com/) for 'built with love' badge
+* [Shields.io](http://shields.io/) for license and techstack badges
 
 [![forthebadge](http://forthebadge.com/images/badges/winter-is-coming.svg)](http://forthebadge.com)
