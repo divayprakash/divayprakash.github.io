@@ -1,10 +1,10 @@
 <img src="https://github.com/divayprakash/divayprakash.github.io/blob/master/images/favicon.png" width="100"> 
 
-# [divayprakash.github.io](https://divayprakash.github.io/)
+# My Website
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/contains-technical-debt.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/no-ragrets.svg)](http://forthebadge.com) 
 
-My personal website hosted using GitHub pages.
+My personal website hosted using [GitHub pages](https://divayprakash.github.io/) and [Netlify](https://divayprakash.netlify.com/).
 
 [![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](https://divayprakash.github.io/)
 
