@@ -1,1 +1,2 @@
-http://* https://* 301
+http://divayprakash.netlify.com https://divayprakash.netlify.com 301
+http://divayprakash.netlify.com/* https://divayprakash.netlify.com/* 301
