@@ -38,4 +38,9 @@ My personal website hosted using GitHub pages.
 * [For The Badge](https://forthebadge.com/) for 'built with love' badge
 * [Shields.io](http://shields.io/) for license and techstack badges
 
+## Site Performance
+From [tools.pingdom.com](https://tools.pingdom.com/)
+
+![perf](https://github.com/divayprakash/divayprakash.github.io/blob/master/images/performance.PNG)
+
 [![forthebadge](http://forthebadge.com/images/badges/winter-is-coming.svg)](http://forthebadge.com)
