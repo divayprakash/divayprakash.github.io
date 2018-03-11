@@ -1,704 +1,126 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Divay Prakash</title>
-    <meta name="description" content="Student | Programmer | Web Developer | Travel Aficionado | Tech Enthusiast | Music Lover | Artist | Geek">
-    <meta name="author" content="Divay Prakash">
-    <link rel="shortcut icon" href="./images/favicon.png">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto+Condensed" as="style" onload="this.rel='stylesheet'">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/animate.min.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Divay Prakash</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet" />
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet" />
+    <style>
+        /* Minimal CSS Reset */
+        html {
+            box-sizing: border-box;
+            font-size: 12px;
+        }
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+        body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Typography */
+        html {
+            font-family: 'Roboto', sans-serif;
+        }
+        @media (min-width: 576px) {
+            html {
+                font-size: 14px;
+            }
+        }
+        @media (min-width: 768px) {
+            html {
+                font-size: 16px;
+            }
+        }
+        @media (min-width: 992px) {
+            html {
+                font-size: 18px;
+            }
+        }
+        @media (min-width: 1200px) {
+            html {
+                font-size: 20px;
+            }
+        }
+        .icons-social i {
+            font-size: 3em;
+        }
+        /* Custom Styles */
+        main {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            padding: 0 30px;
+            text-align: center;
+            background: #FFEB3B;
+            color: #1E1E1E;
+        }
+        main > .intro {
+            font-family: 'Reem Kufi', sans-serif;
+            font-size: 3.75em;
+            font-weight: 600;
+        }
+        main > .tagline {
+            font-size: 1.5rem;
+            margin: 1.5rem 0;
+            font-weight: 100;
+        }
+        .icons-social i {
+            padding: 10px;
+        }
+        .icons-social a {
+            color: #1E1E1E;
+        }
+        .icons-social a svg path{
+            fill: #1E1E1E;
+        }
+        .devto {
+            margin-bottom: -0.20rem;
+        }
+        .devto svg {
+            margin-bottom: -0.20rem;
+            margin-left: 0.675rem;;
+            width: 2.65rem;
+            height: 2.65rem;
+        }
+    </style>
     <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "Person",
-        "name": "Divay Prakash",
-        "gender": "http://schema.org/Male",
-        "email": "divayprakash3@gmail.com",
-        "url": "https://divayprakash.github.io/",
-        "sameAs": [
-            "http://www.linkedin.com/in/divayprakash",
-            "https://twitter.com/divayprakash3",
-            "https://plus.google.com/+DivayPrakash"
-        ]
-    }
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "Divay Prakash",
+            "gender": "http://schema.org/Male",
+            "email": "divayprakash3@gmail.com",
+            "url": "https://divayprakash.github.io/",
+            "sameAs": [
+                "https://twitter.com/divayprakash3",
+                "https://www.linkedin.com/in/divayprakash",
+                "https://github.com/divayprakash"
+            ]
+        }
     </script>
 </head>
-
 <body>
-    <div class="sidebar">
-        <a class="image avatar wow zoomIn"><img src="images/avatar.jpg" alt="" /></a>
-        <h1 class="wow fadeInUp static">
-            <strong>Me</strong><br />
-            student<br />
-            programmer<br />
-            web developer<br />
-            travel aficionado<br />
-            tech enthusiast<br />
-            music lover<br />
-            artist<br />
-            geek
-        </h1>
-        <nav class="wow fadeInUp dynamic" id="nav">
-            <ul>
-                <li class="active"><a href="#abt">about</a></li>
-                <li><a href="#exp">experience</a></li>
-                <li><a href="#prj">projects at IIITD</a></li>
-                <li><a href="#osc">open source contributions</a></li>
-                <li><a href="#osp">open source projects</a></li>
-                <li><a href="#skl">skills</a></li>
-                <li><a href="#edu">education</a></li>
-                <li><a href="#ico">independent coursework</a></li>
-                <li><a href="#sca">scholastic achievements</a></li>
-                <li><a href="#git">get in touch</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="content">
-        <h1 class="wow fadeInUp" id="abt">Hi! I'm Divay Prakash.</h1>
-        <p class="wow fadeInUp">
-            I'm an undergrad student at IIIT-Delhi, pursuing BTech in Computer Science and Engineeering. In a nutshell, I am a simple soul, who likes being with friends, spending time with family, and treating life like it’s a new day, everyday. I have very eclectic tastes, with the music I listen to ranging from metal to jazz, and books from sci-fi to classical literature. I play the guitar and am learning to play the drums. I’m not an avid gamer, but I enjoy strategy and racing games, though I am always up for Counter-Strike! I’m a voracious reader, soaking in anything I can lay my hands on. I enjoy programming and web design, so more often than not I’ll be holed up with my laptop and some coffee (well, lots of it actually!). I am fascinated by the world around me, and being a keen programmer, I love to hack and create amazing things that make a difference.
-        </p>
-        <p class="wow fadeInUp">
-            I am an enthusiastic person who enjoys overcoming challenge and achieving personal goals. My present career aim is to work within IT. The opportunity to learn new skills and work with new technologies is particularly attractive to me. I have a clear, logical mind with a practical approach to problem solving and a drive to see things through to completion. Working with a team to analyze and solve problems gives me immense joy. I am creative and artistic and have a great eye for detail, being a true perfectionist at heart. I am eager to learn and I enjoy overcoming challenges. I have strong technical skills as well as excellent interpersonal skills. You will find me to be extremely hardworking, and able to juggle multiple tasks with great time management, or focus all my energy on just one too.
-        </p>
-        <p class="wow fadeInUp">
-            <a href="./CV.pdf"><button class="wow fadeInUp">CV</button></a>
-        </p>
-        <br />
-        <hr class="wow fadeInUp"/>
-        <br />
-        <h2 class="wow fadeInUp" id="exp">Experience</h2>
-        <div class="experience wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/coursera.png" alt="">
-            <div class="description">
-                <div class="company">Coursera</div>
-                <div class="position">Mentor</div>
-                <div class="time-place">May 2016 - Present</div>
-                <div class="details">
-                    <p>
-                    Mentor for 'Front-End Web UI Frameworks and Tools' course offered by HKUSTx on Coursera
-                    </p>
-                    <p><a href="https://coursera.credly.com/#!/member-badges/14010948"><i class="fa fa-certificate fa-lg fa-fw"></i> Certification Badge</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
+	<main>
+		<div class="intro">Hey, I'm Divay!</div>
+		<div class="tagline">Student | Geek | Wanderer | Aesthete | Petrolhead</div>
+		<div class="icons-social">
+            <a target="_blank" href="https://twitter.com/divayprakash3/"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/divayprakash/"><i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="https://github.com/divayprakash/"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="mailto:divayprakash3@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
-        <div class="spacer"></div>
-        <div class="experience wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/iiitd.png" alt="">
-            <div class="description">
-                <div class="company">Indraprastha Institute of Information Technology</div>
-                <div class="position">Engineering Intern</div>
-                <div class="time-place">May 2016 - July 2016, New Delhi</div>
-                <div class="details">
-                    <p>
-                    Implemented a building management system for use in IIIT Delhi buildings constructed in Phase II – consisting of Arduino microcontroller devices with an interface board of sensors and ESP devices, Raspberry Pi sub-server devices and a central server
-                    </p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="experience wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/udyam.png" alt="">
-            <div class="description">
-                <div class="company">Udyam Trust</div>
-                <div class="position">Teaching Volunteer</div>
-                <div class="time-place">May 2015 - June 2015, New Delhi</div>
-                <div class="details">
-                    <p>
-                    Taught Mathematics, Computer Science and General Science to middle and secondary school students
-                    </p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="experience wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/mis.png" alt="">
-            <div class="description">
-                <div class="company">The Mother's International School</div>
-                <div class="position">Teaching Volunteer</div>
-                <div class="time-place">May 2013, New Delhi</div>
-                <div class="details">
-                    <p>
-                    Taught Mathematics, English and Hindi to primary school students
-                    </p>
-                </div>
-            </div>
-            <br />
-        </div>
-        <br />
-        <hr class="wow fadeInUp"/>
-        <br />
-        <h2 class="wow fadeInUp" id="prj">Projects at IIITD</h2>
-        <div class="projects wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/iiitd.png" alt="">
-            <div class="description">
-                <div class="title">BTech Project - Building Management System</div>
-                <div class="duration">August 2016 - April 2017</div>
-                <div class="guide">Professor Hemant Kumar</div>
-                <div class="details">
-                    <p>
-                    Designed and implemented sub-server units running on Raspberry Pi devices and central server running Django for all IoT devices under the BMS project
-                    </p>
-                    <p><a href="https://github.com/divayprakash/btp-thesis/releases/download/v1.0/btp_thesis.pdf"><i class="fa fa-book fa-lg fa-fw"></i> Thesis 1</a>
-                    <a href="https://github.com/divayprakash/btp-thesis/releases/download/v2.3/btp_thesis_2.pdf"><i class="fa fa-book fa-lg fa-fw"></i> Thesis 2</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="projects wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/summafy.png" alt="">
-            <div class="description">
-                <div class="title">Summafy</div>
-                <div class="duration">February 2017 - April 2017</div>
-                <div class="guide">Dr. Ponnurangam Kumaraguru</div>
-                <div class="details">
-                    <p>
-                    Ground up re-design of the existing IIITD ERP website using HCI methodologies like contextual inquiry, prototyping, low-fidelity design, user testing and hi-fidelity design followed by implementation of a front-end website demo
-                    </p>
-                    <p><a href="https://github.com/summafy/summafy/"><i class="fa fa-github fa-lg fa-fw"></i> Code</a>
-                    <a href="https://summafy.github.io/summafy/"><i class="fa fa-globe fa-lg fa-fw"></i> Demo Website (Select 'Role' and click 'Sign In')</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="projects wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star-wide.png" alt="">
-            <div class="description">
-                <div class="title">NPTEL Online Certfication</div>
-                <div class="duration">April 2017</div>
-                <div class="guide">Dr. Ponnurangam Kumaraguru</div>
-                <div class="details">
-                    <p>
-                    Re-design of the existing NPTEL online certification website using HCI methodologies of contextual inquiry and rapid prototyping to create a high fidelity design and implementation of a front-end website demo
-                    </p>
-                    <p><a href="https://github.com/nptel-noc/noc/"><i class="fa fa-github fa-lg fa-fw"></i> Code</a>
-                    <a href="https://nptel-noc.github.io/noc/index.html"><i class="fa fa-globe fa-lg fa-fw"></i> Demo Website ('Refresh' after pageload)</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="projects wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/silencio.png" alt="">
-            <div class="description">
-                <div class="title">Silencio</div>
-                <div class="duration">August 2016 - November 2016</div>
-                <div class="guide">Dr. Pushpendra Singh</div>
-                <div class="details">
-                    <p>
-                    Designed and implemented a noise level detection, indication, logging and mapping application on Android platform, utilizing a custom Django server as backend
-                    </p>
-                    <p><a href="https://github.com/silencio-app/app/"><i class="fa fa-github fa-lg fa-fw"></i> Code</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="projects wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/shark.png" alt="">
-            <div class="description">
-                <div class="title">Shark – SHARing Keys</div>
-                <div class="duration">August 2016 - November 2016</div>
-                <div class="guide">Dr. Ponnurangam Kumaraguru</div>
-                <div class="details">
-                    <p>
-                    Designed and implemented an Android application for sharing PGP keys using QR codes, along with signing to build Web of Trust, utilizing a custom MEAN stack server as backend
-                    </p>
-                    <p><a href="https://github.com/shark-app/app"><i class="fa fa-github fa-lg fa-fw"></i> Application</a>
-                    <a href="https://github.com/shark-app/server"><i class="fa fa-github fa-lg fa-fw"></i> Server</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="projects wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/hub.png" alt="">
-            <div class="description">
-                <div class="title">Programmer Hub</div>
-                <div class="duration">March 2016 - April 2016</div>
-                <div class="guide">Dr. Pankaj Jalote</div>
-                <div class="details">
-                    <p>
-                    Designed and built a static website using Bootstrap and Bower, using various technologies and tools such as HTML5 Boilerplate, robots and humans text files, sitemap, Google site verification for SEO, YSlow for optimisation, Codeclimate for static code analysis
-                    </p>
-                    <p><a href="https://github.com/programmer-hub/programmer-hub.github.io/"><i class="fa fa-github fa-lg fa-fw"></i> Code</a>
-                    <a href="http://programmer-hub.github.io/"><i class="fa fa-globe fa-lg fa-fw"></i> Website</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="projects wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/evs.png" alt="">
-            <div class="description">
-                <div class="title">Controlling Pollution</div>
-                <div class="duration">March 2016 - April 2016</div>
-                <div class="guide">Dr. Suresh Jain</div>
-                <div class="details">
-                    <p>
-                    Designed and built a web app following Material Design Guidelines using a custom Django server as backend. The app scraped data from various government websites to display real time pollution statistics and provided a platform for citizens to raise their voice about issues related to pollution in the NCR region  
-                    </p>
-                    <p><a href="https://github.com/divayprakash/evs-website/"><i class="fa fa-github fa-lg fa-fw"></i> Code</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="projects wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star-wide.png" alt="">
-            <div class="description">
-                <div class="title">Art Gallery DBMS</div>
-                <div class="duration">March 2016 - April 2016</div>
-                <div class="guide">Dr. Vikram Goyal</div>
-                <div class="details">
-                    <p>
-                    Designed and implemented a DBMS system to manage an art gallery using MySQL, JDBC, Java and JavaFX
-                    </p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="projects wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star-wide.png" alt="">
-            <div class="description">
-                <div class="title">PhD Admission Portal</div>
-                <div class="duration">October 2015 - November 2015</div>
-                <div class="guide">Dr. Chetan Arora</div>
-                <div class="details">
-                    <p>
-                    Implemented a mock PhD admission portal using Java, JavaFX and socket programming
-                    </p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="projects wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/mouse.jpg" alt="">
-            <div class="description">
-                <div class="title">Handsfree Mouse</div>
-                <div class="duration">January 2015 - April 2015</div>
-                <div class="guide">Dr. Alexander Fell</div>
-                <div class="details">
-                    <p>
-                    Created a gesture recognition computer mouse using an ADXL345 accelerometer module and an Arduino Leonardo
-                    </p>
-                    <p><a href="https://github.com/divayprakash/handsfree-mouse/"><i class="fa fa-github fa-lg fa-fw"></i> Code</a>
-                    <a href="http://iedprojects2015.blogspot.in/2015/03/handsfree-mouse-project-scope-weintend.html"><i class="fa fa-rss fa-lg fa-fw"></i> Blog</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="projects wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/parking.jpg" alt="">
-            <div class="description">
-                <div class="title">Parking Sensor</div>
-                <div class="duration">August 2014 - September 2015</div>
-                <div class="guide">Dr. Jyoti Sinha</div>
-                <div class="details">
-                    <p>
-                    Created a parking sensor using an ultrasonic distance sensor and an Arduino Uno
-                    </p>
-                    <p><a href="https://github.com/divayprakash/arduino-parking-sensor/"><i class="fa fa-github fa-lg fa-fw"></i> Code</a>
-                    <a href="http://smwiki2014.wikidot.com/wiki:parking-sensor-using-arduino/"><i class="fa fa-rss fa-lg fa-fw"></i> Blog</a></p>
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <br />
-        <hr class="wow fadeInUp"/>
-        <br />
-        <h2 class="wow fadeInUp" id="osc">Open Source Contributions</h2>
-        <div class="opensource">
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/zen.png" alt="">
-                <a href="https://github.com/zen-audio-player/zen-audio-player.github.io/">Zen Audio Player</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/atom.png" alt="">
-                <a href="https://github.com/atom/flight-manual.atom.io/">Atom</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/jsrant.png" alt="">
-                <a href="https://github.com/ChappIO/jsRant/">jsRant</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/facebook.png" alt="">
-                <a href="https://github.com/facebook/device-year-class/">Device Year Class</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/auth.png" alt="">
-                <a href="https://github.com/2factorauth/twofactorauth/">Two Factor Auth</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/fontforge.png" alt="">
-                <a href="https://github.com/fontforge/fontforge/">Fontforge</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/nextcloud.png" alt="">
-                <a href="https://github.com/nextcloud/android/">Nextcloud</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/potato.png" alt="">
-                <a href="https://github.com/drtshock/Potato/">Potato</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/google.png" alt="">
-                <a href="https://github.com/google/personfinder/">Person Finder</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star.png" alt="">
-                <a href="https://github.com/pjhampton/Gramophone/">Gramophone</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/elementary.png" alt="">
-                <a href="https://github.com/elementary/website/">MVP</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star.png" alt="">
-                <a href="https://github.com/adambard/learnxinyminutes-docs/">Learn X in Y minutes</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star.png" alt="">
-                <a href="https://github.com/shankariyerr/powerslides/">PowerSlides</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/github.png" alt="">
-                <a href="https://github.com/desktop/desktop/">GitHub Desktop</a>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star.png" alt="">
-                <a href="https://github.com/rohanchandra/type-theme/">Type Theme</a>
-            </div>
-        </div>
-        <br />
-        <hr class="wow fadeInUp"/>
-        <br />
-        <h2 class="wow fadeInUp" id="osp">Open Source Projects</h2>
-        <div class="opensource">
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/async.png" alt="">
-                <a href="https://github.com/divayprakash/asynctask/">asynctask</a>
-                <p>Android app showcasing the use of AsyncTask to perform network operations</p>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/todo.png" alt="">
-                <a href="https://github.com/divayprakash/todolist/">todolist</a>
-                <p>Simple todo list Android app</p>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/todo.png" alt="">
-                <a href="https://github.com/divayprakash/storage-app/">storage-app</a>
-                <p>Android app showcasing the use of various data storage methods</p>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/isprime.png" alt="">
-                <a href="https://github.com/divayprakash/isprime/">Prime Or Not</a>
-                <p>Simple Android app to ask IsPrime questions</p>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star.png" alt="">
-                <a href="https://github.com/divayprakash/make/">make</a>
-                <p>Makefile for Atmega328P AVR code</p>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star.png" alt="">
-                <a href="https://github.com/divayprakash/shell-scripts/">shell-scripts</a>
-                <p>Various shell scripts for different problems</p>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star.png" alt="">
-                <a href="https://github.com/divayprakash/towers-of-hanoi/">towers-of-hanoi</a>
-                <p>A solution for the 'Towers of Hanoi' problem in Python</p>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star.png" alt="">
-                <a href="https://github.com/divayprakash?tab=repositories&q=assign">ELD coursework</a>
-                <p>Coursework for Embedded Logic Design course at IIITD</p>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/senna.png" alt="">
-                <a href="https://github.com/divayprakash/tribute-page/">tribute-page</a>
-                <p>A tribute to the great Ayrton Senna, made for FreeCodeCamp</p>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/star.png" alt="">
-                <a href="https://github.com/divayprakash/personal-portfolio/">personal-portfolio</a>
-                <p>A sample personal portfolio webpage, made for FreeCodeCamp</p>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/glider.png" alt="">
-                <a href="https://github.com/divayprakash/divayprakash.github.io/">website</a>
-                <p>This; my personal website!</p>
-            </div>
-            <div class="center wow fadeInUp">
-                <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/glider.png" alt="">
-                <a href="https://github.com/divayprakash/blog/">633k</a>
-                <p>My blog</p>
-            </div>
-        </div>
-        <br />
-        <hr class="wow fadeInUp"/>
-        <br />
-        <h2 class="wow fadeInUp" id="skl">Skills</h2>
-        <div class="skills">
-            <div class="listing wow fadeInUp">
-                <h3>Languages</h3>
-                <p>
-                    Proficiency in : C/C++, Java, Python, Android, HTML, CSS, FXML, Java Swing, JavaFX, SQL, Shell scripting, AVR, ARM assembly, Markdown, LaTeX
-                </p>
-                <p>
-                    Exposure to : JavaScript, R, Processing, Verilog HDL, NodeJS, AngularJS, Bootstrap, MDL
-                </p>
-            </div>
-            <hr class="wow fadeInUp"/>
-            <div class="listing wow fadeInUp">
-                <h3>Software Packages and Tools</h3>
-                <p>
-                    Git, Linux terminal, Windows cmd, VMWare, MySQL, Wordpress, Eagle, Xilinx ISE, Fritzig, Adept, Microsoft Office (Word, PowerPoint, Excel, Access)
-                </p>
-            </div>
-            <hr class="wow fadeInUp"/>
-            <div class="listing wow fadeInUp">
-                <h3>Compilers/IDEs</h3>
-                <p>
-                    gcc/g++, gdb, CodeBlocks, TurboC, IntelliJ IDEA, Eclipse, BlueJ, PyCharm, IDLE, Android Studio, Arduino IDE, ARMSim 
-                </p>
-            </div>
-            <hr class="wow fadeInUp"/>
-            <div class="listing wow fadeInUp">
-                <h3>Platforms</h3>
-                <p>
-                    Windows, Linux (Ubuntu and Elementary distros), Android
-                </p>
-            </div>
-        </div>
-        <br />
-        <hr class="wow fadeInUp"/>
-        <br />
-        <h2 class="wow fadeInUp" id="edu">Education</h2>
-        <div class="education wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/iiitd.png" alt="">
-            <div class="description">
-                <div class="institute">Indraprastha Institute of Information Technology</div>
-                <div class="qualification">BTech (CSE) Computer Science and Engineering</div>
-                <div class="time-place">July 2014 - Present, New Delhi</div>
-                <div class="result">
-                    <p>
-                    2<sup>nd</sup> year result - 7.63/10.0 CGPA
-                    </p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="education wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/mis.png" alt="">
-            <div class="description">
-                <div class="institute">The Mother’s International School</div>
-                <div class="qualification">Class 12</div>
-                <div class="time-place">March 2013 - March 2014, New Delhi</div>
-                <div class="result">
-                    <p>
-                    CBSE : 92.6%
-                    </p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="education wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/mis.png" alt="">
-            <div class="description">
-                <div class="institute">The Mother’s International School</div>
-                <div class="qualification">Class 10</div>
-                <div class="time-place">March 2011 - March 2012, New Delhi</div>
-                <div class="result">
-                    <p>
-                    CBSE : 10.0/10.0 GPA
-                    </p>
-                </div>
-            </div>
-            <br />
-        </div>
-        <br />
-        <hr class="wow fadeInUp"/>
-        <br />
-        <h2 class="wow fadeInUp" id="ico">Independent Coursework</h2>
-        <div class="icourse wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/haskell.png" alt="">
-            <div class="description">
-                <div class="title">Introduction to Haskell Programming</div>
-                <div class="institution">Indian Institute of Technology, Madras</div>
-                <div class="platform">NPTEL</div>
-                <div class="result">
-                    <p>
-                    Final result : Elite certificate with a consolidated score of 70%
-                    </p>
-                    <p><a href="./images/nptel.jpg"><i class="fa fa-certificate fa-lg fa-fw"></i> Certificate</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="icourse wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/bootstrap.png" alt="">
-            <div class="description">
-                <div class="title">Front-End Web UI Frameworks and Tools</div>
-                <div class="institution">The Hong Kong University of Science and Technology</div>
-                <div class="platform">Coursera (HKUSTx)</div>
-                <div class="result">
-                    <p>
-                    Final result : 100%
-                    </p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="icourse wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/angular.png" alt="">
-            <div class="description">
-                <div class="title">Front-End JavaScript Frameworks: AngularJS</div>
-                <div class="institution">The Hong Kong University of Science and Technology</div>
-                <div class="platform">Coursera (HKUSTx)</div>
-                <div class="result">
-                    <p>
-                    Final result : 100%
-                    </p>
-                    <p><a href="https://github.com/divayprakash/angularjs-course/"><i class="fa fa-github fa-lg fa-fw"></i> Excercise and assignment code</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="icourse wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/node.png" alt="">
-            <div class="description">
-                <div class="title">Server-side Development with NodeJS</div>
-                <div class="institution">The Hong Kong University of Science and Technology</div>
-                <div class="platform">Coursera (HKUSTx)</div>
-                <div class="result">
-                    <p>
-                    Final result : 100%
-                    </p>
-                    <p><a href="https://github.com/divayprakash/nodejs-course/"><i class="fa fa-github fa-lg fa-fw"></i> Excercise and assignment code</a></p>
-                    <hr />
-                </div>
-            </div>
-            <br />
-        </div>
-        <div class="spacer"></div>
-        <div class="icourse wow fadeInUp">
-            <img class="wow zoomIn" data-wow-delay="0.5s" src="./images/jazz.png" alt="">
-            <div class="description">
-                <div class="title">Jazz Appreciation</div>
-                <div class="institution">The University of Texas at Austin</div>
-                <div class="platform">edX (UTAustinX)</div>
-                <div class="result">
-                    <p>
-                    Final result : 93%
-                    </p>
-                    <p><a href="https://courses.edx.org/certificates/c18feaa895b444d09451c4fe837a245f"><i class="fa fa-certificate fa-lg fa-fw"></i> Certificate</a></p>
-                </div>
-            </div>
-            <br />
-        </div>
-        <br />
-        <hr class="wow fadeInUp"/>
-        <br />
-        <h2 class="wow fadeInUp" id="sca">Scholastic Achievements</h2>
-        <div class="achievement wow fadeInUp">
-            <div class="bullet"><i class="fa fa-certificate fa-lg fa-fw"></i></div>
-            <div class="wrapper">
-                <div class="title">Junior Science Talent Search (JSTS) Scholar</div>
-                <div class="description">Directorate of Education, Government of NCT of Delhi - 2010</div>
-            </div>
-        </div>
-        <br />
-        <div class="achievement wow fadeInUp">
-            <div class="bullet"><i class="fa fa-certificate fa-lg fa-fw"></i></div>
-            <div class="wrapper">
-                <div class="title">Gold Medallist</div>
-                <div class="description">National Mathematics Olympiad - 2010</div>
-            </div>
-        </div>
-        <br />
-        <div class="achievement wow fadeInUp">
-            <div class="bullet"><i class="fa fa-certificate fa-lg fa-fw"></i></div>
-            <div class="wrapper">
-                <div class="title">National Talent Search Examination (NTSE) Scholar</div>
-                <div class="description">National Council of Education Research and Training - 2009</div>
-            </div>
-        </div>
-        <br />
-        <div class="achievement wow fadeInUp">
-            <div class="bullet"><i class="fa fa-certificate fa-lg fa-fw"></i></div>
-            <div class="wrapper">
-                <div class="title">AIR (All India Rank) - 80</div>
-                <div class="description">National Cyber Olympiad - 2009</div>
-            </div>
-        </div>
-        <br />
-        <br />
-        <hr class="wow fadeInUp"/>
-        <br />
-        <h2 class="wow fadeInUp" id="git">Get in Touch!</h2>
-        <p class="wow fadeInUp">I'd love to hear from you! Drop me a line.</p>
-        <div class="wow fadeInUp">
-            <a><i class="fa fa-home fa-lg fa-fw"></i> New Delhi, India<br /></a>
-            <a href="mailto:divayprakash3@gmail.com"><i class="fa fa-envelope-o fa-lg fa-fw"></i> divayprakash3@gmail.com</a><br />
-            <a href="https://github.com/divayprakash/"><i class="fa fa-github fa-lg fa-fw"></i> divayprakash</a><br />
-            <a href="https://www.linkedin.com/in/divayprakash/"><i class="fa fa-linkedin fa-lg fa-fw"></i> /in/divayprakash</a><br />
-            <a href="https://twitter.com/divayprakash3/"><i class="fa fa-twitter fa-lg fa-fw"></i> @divayprakash3</a><br />
-            <a href="https://stackshare.io/divayprakash/divayprakash"><img src="./images/tech.png" id="stack"></a><br />
-        </div>
-        <br />
-        <br />
-        <hr class="wow fadeInUp"/>
-        <br />
-        <h2 class="wow fadeInUp">Website</h2>
-        <div class="wow fadeInUp">
-            I have designed and developed this website completely by myself using various technologies. It is an opensource project and you can find the same at <a href="https://github.com/divayprakash/divayprakash.github.io">GitHub</a>.<br /><br />
-            <img src="./images/love.png" id="love"> by Divay Prakash<br /><br />
-            <img src="./images/license.png" id="license">
-        </div>
-    </div>
-    <script async defer src="https://use.fontawesome.com/3409e1cee6.js"></script>
-    <script src="./js/wow.min.js"></script>
-    <script src="./js/jquery-3.2.1.min.js"></script>
-    <script src="./js/scrollspy.min.js"></script>
-    <script src="./js/main.js"></script>
+	</main>
 </body>
-
 </html>
