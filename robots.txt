@@ -1,4 +1,0 @@
-Sitemap: https://divayprakash.github.io/sitemap.xml
-User-agent: *
-Disallow: /css/
-Disallow: /images/
