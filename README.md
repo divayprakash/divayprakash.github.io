@@ -2,7 +2,7 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/contains-technical-debt.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/no-ragrets.svg)](http://forthebadge.com)
 
-My personal website hosted using [GitHub pages](https://divayprakash.github.io/) and [Netlify](https://divayprakash.netlify.com/).
+My personal website hosted using [GitHub pages](https://divayprakash.github.io/).
 
 [![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](https://divayprakash.github.io/)
 
