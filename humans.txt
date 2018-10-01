@@ -1,0 +1,12 @@
+/* TEAM */
+	Developer and Designer: Divay Prakash
+	Contact: divayprakash3 [at] gmail.com
+	From: New Delhi, India
+
+/* SITE */
+	Language: English
+	Doctype: HTML5
+	Standards: HTML5, CSS
+	Components: Font Awesome
+	Software: Sublime Text, Brackets, Google Chrome, git
+	Web Tools: GitHub
