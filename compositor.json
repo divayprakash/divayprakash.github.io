@@ -1,0 +1,85 @@
+{
+  "name": "divayprakash/divayprakash.github.io",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Profile",
+  "branch": "master",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/divayprakash/divayprakash.github.io",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "divayprakash.github.io",
+      "subhead": "My personal website",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "divayprakash.github.io: My personal website",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "divayprakash",
+          "repo": "divayprakash.github.io"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<p><img src=\"https://github.com/divayprakash/divayprakash.github.io/blob/master/images/favicon.png\"> </p>\n<h1>My Website</h1>\n<p><a href=\"http://forthebadge.com\"><img src=\"http://forthebadge.com/images/badges/built-with-love.svg\"></a> <a href=\"http://forthebadge.com\"><img src=\"http://forthebadge.com/images/badges/contains-technical-debt.svg\"></a> <a href=\"http://forthebadge.com\"><img src=\"http://forthebadge.com/images/badges/no-ragrets.svg\"></a> </p>\n<p>My personal website hosted using <a href=\"https://divayprakash.github.io/\">GitHub pages</a> and <a href=\"https://divayprakash.netlify.com/\">Netlify</a>.</p>\n<p><a href=\"https://divayprakash.github.io/\"><img src=\"http://forthebadge.com/images/badges/check-it-out.svg\"></a></p>\n<p><a href=\"http://forthebadge.com\"><img src=\"http://forthebadge.com/images/badges/uses-html.svg\"></a>\n<a href=\"http://forthebadge.com\"><img src=\"http://forthebadge.com/images/badges/uses-css.svg\"></a>\n<a href=\"http://forthebadge.com\"><img src=\"http://forthebadge.com/images/badges/uses-js.svg\"></a>\n<a href=\"http://forthebadge.com\"><img src=\"http://forthebadge.com/images/badges/uses-git.svg\"></a>\n<a href=\"http://forthebadge.com\"><img src=\"http://forthebadge.com/images/badges/uses-badges.svg\"></a></p>\n<h2>Attributions</h2>\n<ul>\n<li>CSS vendor prefixes using <a href=\"https://autoprefixer.github.io/\">Autoprefixer</a></li>\n<li>Stock image for background under <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CCO License</a> from <a href=\"https://unsplash.com/@dcp?photo=i1x2BO7CSBI\">Unsplash</a></li>\n<li>Gradient from <a href=\"https://webgradients.com/\">WebGradients</a></li>\n<li>Font from Google fonts under <a href=\"http://www.apache.org/licenses/LICENSE-2.0.html\">Apache 2.0 License</a></li>\n<li>Icons from <a>FontAwesome</a> by Dave Gandy under <a href=\"http://opensource.org/licenses/mit-license.html\">MIT License</a></li>\n<li>Sitemap generated using <a href=\"https://www.xml-sitemaps.com\">Free Online Sitemap Generator</a></li>\n<li><a href=\"https://www.fotor.com/app.html#!module/design/tool/Design\">Fotor Graphic Design App</a></li>\n<li><a href=\"https://tinypng.com/\">TinyPNG</a> for image compression</li>\n<li>Quick Picture Tools&apos; <a href=\"http://www.quickpicturetools.com/en/rounded_corners/\">Rounded Corners Tool</a></li>\n<li><a href=\"https://pixlr.com/express/\">Pixlr Express</a> photo editor</li>\n<li><a href=\"http://www.online-image-editor.com/\">Online Image Editor</a></li>\n<li><a href=\"http://www194.lunapic.com/editor/\">LunaPic Image Editor</a></li>\n<li>Animations using <a href=\"https://daneden.github.io/animate.css/\">Animate.css</a> under <a href=\"https://github.com/daneden/animate.css/blob/master/LICENSE/\">MIT license</a> and <a href=\"http://mynameismatthieu.com/WOW/\">WOW.js</a> under GNU GPLv3 license</li>\n<li>Scrollspy plugin from r3plica <a href=\"https://github.com/r3plica/Scrollspy/\">here</a> under <a href=\"https://github.com/r3plica/Scrollspy/blob/master/LICENSE\">GNU GPLv2 license</a></li>\n<li><a href=\"https://cssminifier.com/\">CSSMinifier</a></li>\n<li><a href=\"https://javascript-minifier.com/\">JSMinifier</a></li>\n<li><a href=\"http://newline.nadav.org/\">New-line Converter</a></li>\n<li>Google guidelines on structured data for social media profiles <a href=\"https://developers.google.com/search/docs/data-types/social-profile-links\">here</a></li>\n<li>Schemas for strcutured data from <a href=\"http://schema.org/\">Schema.org</a></li>\n<li><a href=\"https://cloudconvert.com/\">cloudconvert</a> for SVG to PNG conversion</li>\n<li><a href=\"https://forthebadge.com/\">For The Badge</a> for &apos;built with love&apos; badge</li>\n<li><a href=\"http://shields.io/\">Shields.io</a> for license and techstack badges</li>\n</ul>\n<h2>Site Performance</h2>\n<p>From <a href=\"https://tools.pingdom.com/\">tools.pingdom.com</a></p>\n<p><img src=\"https://github.com/divayprakash/divayprakash.github.io/blob/master/images/performance.PNG\"></p>\n<p><a href=\"http://forthebadge.com\"><img src=\"http://forthebadge.com/images/badges/winter-is-coming.svg\"></a></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/divayprakash/divayprakash.github.io",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/divayprakash",
+          "text": "divayprakash"
+        }
+      ]
+    }
+  ]
+}
