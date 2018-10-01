@@ -1,0 +1,355 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.wow {
+   visibility: hidden;
+}
+
+.sidebar {
+    background: url("../images/overlay.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(48, 207, 208, 1)), to(rgba(51, 8, 103, 1)));
+    background: url("../images/overlay.png"), linear-gradient(to bottom, rgba(48, 207, 208, 1) 0%, rgba(51, 8, 103, 1) 100%);
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: normal;
+    height: 100%;
+    position: fixed;
+    text-align: right;
+    width: 35%;
+}
+
+.sidebar h1 {
+    font-weight: normal;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li a {
+    font-size: 1.25em;
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    border-bottom-color: transparent;
+    color: rgba(48, 207, 208, 1) !important;
+    text-decoration: none;
+}
+
+.sidebar ul li.active a {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.image {
+    border-radius: 0.35em;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.image.avatar:before {
+    display: none;
+}
+
+.image.avatar {
+    margin: 0 0 1em 0;
+    width: 6.25em;
+    border-radius: 100%;
+}
+
+.image.avatar img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.6);
+    margin-left: 35%;
+    padding: 8em 4em;
+}
+
+a {
+    -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    color: rgba(51, 8, 103, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom-color: transparent;
+    color: rgba(48, 207, 208, 1) !important;
+    text-decoration: none;
+}
+
+strong {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+
+.spacer {
+    height: 1em;
+}
+
+button {
+    appearance: none;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    background-color: transparent;
+    border-radius: 0.35em;
+    border: solid 3px #cfcfcf;
+    color: rgba(51, 8, 103, 1) !important;
+    cursor: pointer;
+    font-weight: bold;
+    height: 3.15em;
+    height: calc(2.75em + 6px);
+    line-height: 2.75em;
+    min-width: 10em;
+    padding: 0 1.5em;
+    margin-top: 1em;
+}
+
+button:hover {
+    border-color: rgba(48, 207, 208, 1);
+    color: rgba(48, 207, 208, 1) !important;
+}
+
+.por img , .projects img, .education img, .exc img {
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
+.por br, .projects br, .education br, .exc br {
+    clear: both;
+}
+
+.por .description, .projects .description, .education .description, .exc .description {
+    margin-left: 25%;
+}
+
+.por .description .company,.position {
+    text-transform: capitalize;
+    display: inline;
+}
+
+.education .description .institute,.qualification {
+    text-transform: capitalize;
+    display: inline;
+}
+
+.exc .description .title,.location {
+    text-transform: capitalize;
+    display: inline;
+}
+
+.por .description .company, .education .description .institute, .exc .description .title {
+    font-weight: bold;
+}
+
+.por .description .company:after, .education .description .institute:after, .exc .description .title:after {
+    content: " /";
+}
+
+.por .description .position, .education .description .qualification, .exc .description .location {
+    font-style: italic;
+}
+
+.por .description .time-place, .projects .description .time-place, .education .description .time-place, .exc .description .time, .achievement .description {
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.exc .description .platform {
+    font-size: 0.8em;
+}
+
+.projects .description .title {
+    font-weight: bold;
+}
+
+.projects .description .details p a:first-child {
+    margin-right: 1em;
+}
+
+.int {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: calc(20%/3);
+}
+
+.int img {
+    width: 100%;
+    height: auto;
+    padding: 20%;
+}
+
+.int .center {
+    text-align: center;
+}
+
+.int .center p {
+    margin-top: 0;
+}
+
+.icons-social a {
+    color: #1E1E1E;
+    transition: .5s ease-in-out;
+}
+
+.icons-social a:hover {
+    border-bottom-color: transparent;
+    color: rgba(48, 207, 208, 1) !important;
+}
+
+.icons-social a i {
+    font-size: 3em;
+    padding: 20px;
+}
+
+.skills .listing {
+    margin-top: 2em;
+    width: 100%;
+}
+
+.achievement {
+    position: relative;
+}
+
+.achievement .bullet {
+    width: 5%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.achievement .wrapper {
+    margin-left: 5%;
+    width: 95%;
+}
+
+#stack, #love, #license {
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 1281px) {
+    .sidebar {
+        width: 30%;
+        padding: 8em 4em;
+    }
+    .sidebar h1 {
+        font-size: 1.25em;
+    }
+    .content {
+        margin-left: 30%;
+        padding: 8em 4em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .sidebar {
+        width: 30%;
+        padding: 6em 3em 3em 3em;
+    }
+    .sidebar h1 {
+        font-size: 1.25em;
+    }
+    .sidebar h1 br {
+        display: none;
+    }
+    .content {
+        margin-left: 30%;
+        max-width: none;
+        padding: 6em 3em 3em 3em;
+        width: calc(100% - 30%);
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .sidebar {
+        left: auto;
+        position: relative;
+        text-align: center;
+        top: auto;
+        width: 100%;
+        display: block;
+        padding: 6em 4em;
+    }
+    .sidebar h1 {
+        font-size: 1.75em;
+    }
+    .sidebar h1 br {
+        display: inline;
+    }
+    .content {
+        margin: 0;
+        padding: 6em 4em;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .sidebar {
+        padding: 2.25em 1.5em;
+    }
+    .sidebar h1 {
+        font-size: 1.35em;
+    }
+    .content {
+        padding: 2.25em 1.5em 0.25em 1.5em;
+    }
+    .por img, .projects img, .education img, .exc img {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 1em;
+    }
+    .por .description, .projects .description, .education .description, .exc .description {
+        margin-left: 0;
+    }
+    .int {
+        grid-template-columns: 18% 18% 18% 18% 18%;
+        grid-gap: calc(10%/4);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sidebar {
+        padding: 4.5em 1.5em;
+    }
+    .sidebar h1 br {
+        display: none;
+    }
+    .int {
+        grid-template-columns: 31% 31% 31%;
+        grid-gap: calc(7%/2);
+    }
+}
