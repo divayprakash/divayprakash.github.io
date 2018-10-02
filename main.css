@@ -5,11 +5,7 @@ body {
 }
 
 body {
-    background-image: url("../images/bg.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background: rgb(230, 230, 255);
 }
 
 *,
