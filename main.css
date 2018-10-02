@@ -5,11 +5,7 @@ body {
 }
 
 body {
-    background-image: url("../images/bg.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background: rgb(230, 230, 255);
 }
 
 *,
@@ -20,9 +16,13 @@ body {
 }
 
 body {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
 }
 
 .wow {
@@ -209,7 +209,7 @@ button:hover {
     width: 60%;
     height: auto;
     border-radius: 50%;
-    box-shadow: 0 0 10px 1px;
+    box-shadow: 0 0 5px 1px;
     transition: .5s ease-in-out;
 }
 
