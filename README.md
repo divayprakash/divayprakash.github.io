@@ -4,7 +4,7 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/contains-technical-debt.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/no-ragrets.svg)](http://forthebadge.com) 
 
-My personal website hosted using [GitHub pages](https://divayprakash.github.io/) and [Netlify](https://divayprakash.netlify.com/).
+My personal website hosted using [GitHub pages](https://divayprakash.github.io/).
 
 [![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](https://divayprakash.github.io/)
 
@@ -37,10 +37,3 @@ My personal website hosted using [GitHub pages](https://divayprakash.github.io/)
 * [cloudconvert](https://cloudconvert.com/) for SVG to PNG conversion
 * [For The Badge](https://forthebadge.com/) for 'built with love' badge
 * [Shields.io](http://shields.io/) for license and techstack badges
-
-## Site Performance
-From [tools.pingdom.com](https://tools.pingdom.com/)
-
-![perf](https://github.com/divayprakash/divayprakash.github.io/blob/master/images/performance.PNG)
-
-[![forthebadge](http://forthebadge.com/images/badges/winter-is-coming.svg)](http://forthebadge.com)
