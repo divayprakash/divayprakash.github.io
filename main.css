@@ -206,9 +206,15 @@ button:hover {
 }
 
 .int img {
-    width: 100%;
+    width: 60%;
     height: auto;
-    padding: 20%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 1px;
+    transition: .5s ease-in-out;
+}
+
+.int img:hover {
+	filter: brightness(1.5);
 }
 
 .int .center {
