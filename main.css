@@ -208,6 +208,7 @@ button:hover {
 .int img {
     width: 100%;
     height: auto;
+    border-radius: 50%;
     padding: 20%;
 }
 
