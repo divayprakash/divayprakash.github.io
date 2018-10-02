@@ -209,7 +209,7 @@ button:hover {
     width: 60%;
     height: auto;
     border-radius: 50%;
-    box-shadow: 0 0 10px 1px;
+    box-shadow: 0 0 5px 1px;
     transition: .5s ease-in-out;
 }
 
