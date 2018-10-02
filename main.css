@@ -25,10 +25,6 @@ h1, h2 {
     font-family: 'Lato', sans-serif;
 }
 
-.wow {
-   visibility: hidden;
-}
-
 .sidebar {
     background: url("../images/overlay.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(48, 207, 208, 1)), to(rgba(51, 8, 103, 1)));
     background: url("../images/overlay.png"), linear-gradient(to bottom, rgba(48, 207, 208, 1) 0%, rgba(51, 8, 103, 1) 100%);
@@ -44,39 +40,11 @@ h1, h2 {
     font-weight: normal;
 }
 
-.sidebar ul {
-    list-style: none;
-}
-
-.sidebar ul li a {
-    font-size: 1.25em;
-    color: rgba(255, 255, 255, 0.7);
-    -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    text-decoration: none;
-}
-
-.sidebar ul li a:hover {
-    border-bottom-color: transparent;
-    color: rgba(48, 207, 208, 1) !important;
-    text-decoration: none;
-}
-
-.sidebar ul li.active a {
-    color: rgba(255, 255, 255, 0.9);
-    font-weight: bold;
-    text-transform: capitalize;
-}
-
 .image {
     border-radius: 0.35em;
     border: 0;
     display: inline-block;
     position: relative;
-}
-
-.image.avatar:before {
-    display: none;
 }
 
 .image.avatar {
@@ -97,8 +65,7 @@ h1, h2 {
 }
 
 a {
-    -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: all .5s ease-in-out;
     color: rgba(51, 8, 103, 1);
     text-decoration: none;
 }
@@ -120,7 +87,7 @@ strong {
 
 button {
     appearance: none;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: all .5s ease-in-out;
     background-color: transparent;
     border-radius: 0.35em;
     border: solid 3px #cfcfcf;
@@ -186,10 +153,6 @@ button:hover {
     font-size: 0.8em;
 }
 
-.exc .description .platform {
-    font-size: 0.8em;
-}
-
 .projects .description .title {
     font-weight: bold;
 }
@@ -210,7 +173,7 @@ button:hover {
     height: auto;
     border-radius: 50%;
     box-shadow: 0 0 5px 1px;
-    transition: .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .int img:hover {
@@ -225,11 +188,6 @@ button:hover {
     margin-top: 0;
 }
 
-.icons-social a {
-    color: #1E1E1E;
-    transition: .5s ease-in-out;
-}
-
 .icons-social a:hover {
     border-bottom-color: transparent;
     color: rgba(48, 207, 208, 1) !important;
@@ -238,11 +196,6 @@ button:hover {
 .icons-social a i {
     font-size: 3em;
     padding: 20px;
-}
-
-.skills .listing {
-    margin-top: 2em;
-    width: 100%;
 }
 
 .achievement {
