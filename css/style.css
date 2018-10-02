@@ -394,6 +394,10 @@ ol {
 	background: #f2f7f8;
 }
 
+.hero-section img {
+	box-shadow: 0 0 15px 1px;
+}
+
 .hero-text {
 	margin-bottom: 80px;
 }
