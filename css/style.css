@@ -366,7 +366,6 @@ ol {
 	Header section
 -----------------------*/
 .header-section {
-	padding: 50px 40px;
 	background: #f2f7f8;
 }
 
@@ -383,8 +382,8 @@ ol {
 	line-height: normal;
 }
 
-.header-buttons a {
-	margin-top: 15px;
+.header-section {
+	padding-bottom: 100px;
 }
 
 /*---------------------
