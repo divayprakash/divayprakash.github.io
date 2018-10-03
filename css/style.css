@@ -585,6 +585,10 @@ ol {
 /*---------------------
 	Portfolio section
 ----------------------*/
+.portfolio-section {
+	margin-bottom: 100px;
+}
+
 .portfolio-warp {
 	padding: 0 60px;
 }
