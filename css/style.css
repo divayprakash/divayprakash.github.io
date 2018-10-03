@@ -393,6 +393,12 @@ ol {
 	background: #f2f7f8;
 }
 
+.hero-section .hero-image img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
 .hero-text {
 	margin-bottom: 80px;
 }
