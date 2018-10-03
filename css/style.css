@@ -496,12 +496,6 @@ ol {
 /*---------------------
 	Resume section
 ----------------------*/
-.resume-section.with-bg {
-	background-image: url(../img/resume-bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 .resume-list {
 	list-style: none;
 	margin-left: 60px;
