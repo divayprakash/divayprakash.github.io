@@ -543,52 +543,6 @@ ol {
 }
 
 /*---------------------
-	Review section
------------------------*/
-.review-slider {
-	padding-left: 150px;
-}
-
-.review-slider .owl-dots {
-	position: absolute;
-	left: 50px;
-	top: 70px;
-}
-
-.review-slider .owl-dots .owl-dot {
-	width: 12px;
-	height: 12px;
-	border: 2px solid #40424a;
-	border-radius: 50px;
-	background: #cacaca;
-	margin-bottom: 15px;
-}
-
-.review-slider .owl-dots .owl-dot.active {
-	background: #40424a;
-}
-
-.single-review .qut {
-	font-size: 120px;
-	line-height: 0;
-	color: #505259;
-	margin-top: 60px;
-}
-
-.single-review p {
-	margin-bottom: 40px;
-}
-
-.single-review h3 {
-	font-size: 24px;
-	margin-bottom: 10px;
-}
-
-.single-review h4 {
-	font-size: 16px;
-}
-
-/*---------------------
 	Portfolio section
 ----------------------*/
 .portfolio-section {
