@@ -573,6 +573,7 @@ ol {
 .portfolio-item p {
 	font-size: 14px;
 	margin-bottom: 0;
+	font-style: italic;
 }
 
 .portfolio-item .port-pic {
