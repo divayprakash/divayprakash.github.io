@@ -768,6 +768,10 @@ ol {
 
 /* Large Mobile :480px. */
 @media only screen and (max-width: 767px) {
+	.icon-box {
+		margin-right: 30px;
+		text-align: left;
+	}
 	.hero-image {
 		visibility: hidden;
 		display: none;
