@@ -1,4 +1,4 @@
-<img src="https://github.com/divayprakash/divayprakash.github.io/blob/master/images/favicon.png" width="100"> 
+<img src="https://github.com/divayprakash/divayprakash.github.io/blob/master/img/favicon.png" width="100"> 
 
 # My Website
 
